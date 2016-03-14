@@ -95,36 +95,68 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   body{
-     margin:0;
-   }
-   .wrapper h1{
-     font-size:20pt;
-     font-family:sans-serif;
-     color:white;
-     padding:10px;
-     margin:0;
-   }
+body{
+  background-color:#5b496c;
+  margin:0;
+  height:1024px;
+  width:768px;
+}
 
-   .wrapper{
-     position:absolute;
-     background-color:#5b496c;
-     width:1500px;
-     height:768px;
+.container{
+  width:768px;
+}
 
-   }
-   .line{
-     width:1300px;
-     height:5px;
-     background-color:#CD950C;
-     margin-top:300px;
-     margin-left:auto;
-     margin-right:auto;
-   }
+h1, h2, h3{
+  color:white;
+  margin:0;
+  margin-left:10px;
+}
 
+h2{
+  font-size: 20px;
+}
 
+p{
+  color:white;
+  font-size:14px;
+}
 
+.timeline{
+  margin-top:80px;
+}
 
+.timeline h2{
+  text-align:center;
+  margin-left:-5px;
+}
+
+.timeline h3{
+  font-size:16px;
+  font-weight:300;
+}
+
+.left-info, .right-info{
+  float:left;
+  display:block;
+  width:48%;
+  padding:5px;
+}
+
+.left-info{
+    border-right:4px solid #cca100;
+}
+
+.left-info h3{
+  margin-top:120px;
+  text-align:right;
+  padding-right:10px;
+}
+
+.right-info h3{
+  margin-top:55px;
+  margin-bottom:120px;
+  padding-left:10px;
+}
 
 
 
