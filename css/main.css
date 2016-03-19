@@ -170,9 +170,8 @@ p{
 
  .timeline-right{
    position:absolute;
-   margin-left:120px;
+   margin-left:125px;
    width:250px;
-   float:none;
  }
 
 .timeline-left p, .timeline-right p{
@@ -186,11 +185,22 @@ p{
   margin:0 auto;
   display:block;
 }
+
+.timeline-img-2{
+  top:350px;
 }
 
+.timeline-img-3{
+  top:410px;
+}
 
+.timeline-img-4{
+  top:550px;
+}
 
-
+.timeline-img-5{
+  top:750px;
+}
 
 
 
