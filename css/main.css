@@ -99,14 +99,9 @@ body{
   background-color:#5b496c;
   margin:0;
   height:1024px;
-  width:768px;
 }
 
-.container{
-  width:768px;
-}
-
-h1, h2, h3{
+h1, h2{
   color:white;
   margin:0;
   margin-left:20px;
@@ -119,23 +114,30 @@ h2{
   font-size: 20px;
 }
 
+h2.top-date{
+  margin-bottom:50px;
+}
+
 p{
   color:#5b496c;
   font-size:14px;
 }
 
 .timeline{
-  margin-top:80px;
+  margin:0 auto;
+  margin-top: 150px;
 }
 
 .timeline h2{
   text-align:center;
   margin-left:-5px;
 }
-
-.timeline h3{
+.timeline a{
   font-size:16px;
   font-weight:300;
+  color:white;
+  margin:0;
+  display:block;
 }
 
 .left-info, .right-info{
@@ -149,28 +151,34 @@ p{
     border-right:4px solid #cca100;
 }
 
-.left-info h3{
+.left-info a, .right-info a{
+text-decoration:none;
+
+}
+.left-info a{
   margin-top:120px;
   text-align:right;
   padding-right:30px;
+  margin-left:20px;
 }
 
-.right-info h3{
+.right-info a{
   margin-top:55px;
   margin-bottom:120px;
   padding-left:10px;
+  margin-left:20px
 }
 
 .timeline-left{
   position:absolute;
-  margin-left:auto;
+  margin-left:80px;
   margin-right:auto;
   width:250px;
 }
 
  .timeline-right{
    position:absolute;
-   margin-left:125px;
+   margin-left:180px;
    width:250px;
  }
 
@@ -187,19 +195,19 @@ p{
 }
 
 .timeline-img-2{
-  top:350px;
-}
-
-.timeline-img-3{
   top:410px;
 }
 
+.timeline-img-3{
+  top:540px;
+}
+
 .timeline-img-4{
-  top:550px;
+  top:670px;
 }
 
 .timeline-img-5{
-  top:750px;
+  top:850px;
 }
 
 
