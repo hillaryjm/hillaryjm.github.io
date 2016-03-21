@@ -125,7 +125,6 @@ p{
 
 .timeline{
   margin:0 auto;
-  margin-top: 150px;
 }
 
 .timeline h2{
@@ -222,7 +221,7 @@ text-decoration:none;
  */
 
 .hidden {
-    display: none !important;
+    display: none;
 }
 
 /*
