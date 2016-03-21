@@ -170,14 +170,14 @@ text-decoration:none;
 
 .timeline-left{
   position:absolute;
-  margin-left:80px;
+  margin-left:40px;
   margin-right:auto;
   width:250px;
 }
 
  .timeline-right{
    position:absolute;
-   margin-left:180px;
+   margin-left:10px;
    width:250px;
  }
 
